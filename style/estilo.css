@@ -37,35 +37,37 @@
 .ul-menu-style{
     list-style: none; 
 }
-.li-main-menu{
-    padding: 12px;
-    cursor: pointer;
-    width: 75%;
-    background-color: white;
-    transition: width 1000ms, background-color 800ms, color 300ms;
-}
-.li-main-menu:hover{
-    background-color: rgba(185, 185, 185, 0.432);
-    width: 92%;
-}
-.li-main-sena{
-    padding: 12px;
-    cursor: pointer;
-    width: 75%;
-    background-color: white;
-    transition: width 1000ms, background-color 800ms, color 300ms;
-}
-.li-main-sena:hover{
-    background-color: #fc7323;
-    width: 92%;
-}
-a{
+
+
+.li-main-menu {
+    display: flex;
     text-decoration: none;
+    padding: 10px;
     color: black;
+    width: 70%;
+    background-color: white;
+    transition: width 1000ms, background-color 400ms, color 400ms;
 }
-.a-main-sena:hover{
+.li-main-menu:hover {
+    background-color: #5c26c1ad;
+    width: 93.4%;
     color: white;
 }
+.li-main-sena {
+    display: flex;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    width: 70%;
+    background-color: white;
+    transition: width 1000ms, background-color 400ms, color 400ms;
+}
+.li-main-sena:hover {
+    background-color: #fc7323;
+    width: 93.4%;
+    color: white;
+}
+
 .box-presentacion {
     grid-area: box-presentacion;
     display: flex;
@@ -92,36 +94,23 @@ a{
     font-family: "Quicksand";
     font-size: 1.9em;
 }
-button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
 .box-menu{
     justify-content: center;
     align-items: center;
     display: inline-flex;
     position: fixed;
-    width: 100px;
+    width: 60px;
     height: 45px;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin: 10px;
     border-radius: 10px;
     cursor: pointer;
-    background-color: rgba(185, 185, 185, 0.432);
+    background-color: #a17fe0;
     transition: width 1000ms;
 }
 .box-menu:hover{
-    background-color: rgba(255, 68, 68, 0.425);
-    transition: 1000ms;
-    width: 110px;
+    width: 70px;
 }
-.menu-pro{
+.fa-solid{
     font-size: 2em;
     color: white;
     cursor: pointer;
